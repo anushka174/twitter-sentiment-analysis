@@ -1,6 +1,6 @@
-streamlit
+streamlit==0.90.0
 re
-tensorflow
-keras
-numpy
-textblob
+tensorflow==2.6.0
+keras==2.6.0
+numpy==1.19.5
+textblob==0.15.3
