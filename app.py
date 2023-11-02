@@ -33,7 +33,7 @@ def predict_sentiment(text):
     return prediction
 
 # Streamlit UI
-st.title("Sentiment Analysis")
+st.title("Sentiment Analysis by Anushka Kadam")
 
 st.write("This app checks the sentiment of the given text input using TextBlob and a pre-trained model.")
 st.write("TextBlob provides a quick analysis, and the model provides more in-depth analysis.")
@@ -58,9 +58,9 @@ if st.button("Check Sentiment"):
         model_prediction = predict_sentiment(user_input)
         if model_prediction >= 0.5:
             st.write("Model Analysis:")
-            st.error("Depressed")
+            st.error("Negative")
         else:
             st.write("Model Analysis:")
-            st.success("Not Depressed")
+            st.success("Positive")
     else:
         st.warning("Please enter text for analysis.")
