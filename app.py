@@ -61,6 +61,6 @@ if st.button("Check Sentiment"):
             st.error("Negative")
         else:
             st.write("Model Analysis:")
-            st.success("Positive")
+            st.success("Positive or Neutral")
     else:
         st.warning("Please enter text for analysis.")
