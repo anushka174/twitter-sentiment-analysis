@@ -1,0 +1,6 @@
+streamlit
+re
+tensorflow
+keras
+numpy
+textblob
