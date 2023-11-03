@@ -33,7 +33,7 @@ def predict_sentiment(text):
     return prediction
 
 # Streamlit UI
-st.title("Sentiment Analysis by Anushka Kadam")
+st.title("Sentiment Analysis by Anushka Kadam & Uday Bharadiya")
 
 st.write("This app checks the sentiment of the given text input using TextBlob and a pre-trained model.")
 st.write("TextBlob provides a quick analysis, and the model provides more in-depth analysis.")
